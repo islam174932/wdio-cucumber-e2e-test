@@ -269,10 +269,10 @@ export const config: Options.Testrunner = {
      * @param {object}         browser      instance of created browser/device session
      */
     before: function (capabilities, specs) {
-        browser.options["environment"] = config.environment
-        browser.options["sauseDemoURL"] = config.sauseDemoURL
-        browser.options["reqresBaseURL"] = config.reqresBaseURL
-        browser.options["nopeCommerceBaseURL"] = config.nopeCommerceBaseURL
+        // browser.options["environment"] = config.environment
+        // browser.options["sauseDemoURL"] = config.sauseDemoURL
+        // browser.options["reqresBaseURL"] = config.reqresBaseURL
+        // browser.options["nopeCommerceBaseURL"] = config.nopeCommerceBaseURL
     },
     /**
      * Runs before a WebdriverIO command gets executed.
